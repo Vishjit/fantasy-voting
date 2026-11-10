@@ -1,54 +1,14 @@
-# ===========================
-# JAVA / MAVEN
-# ===========================
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
 
-# Maven builds the Java code into this folder - regenerated every time
-target/
-
-# Maven wrapper (optional, only if not using mvn wrapper)
-.mvn/
-
-# ===========================
-# SPRING BOOT
-# ===========================
-
-# DB password, API keys!
-# NEVER commit this - create your own
-backend/src/main/resources/application-local.properties
-
-# ===========================
-# NODE / NEXT.JS
-# ===========================
-
-# npm install recreates this - never commit it (can be 500MB+)
+# Javascript / Node
 node_modules/
+frontend/dist/
 
-# Next.js build output - auto generated
-.next/
-
-# frontend environment variables
-.env.local
-.env*.local
-
-# ===========================
-# IDEs & EDITORS
-# ===========================
-
-# Personal editor settings
-
-
-# VS Code
+# Environment/DB
+.env
+.idea/
 .vscode/
-
-# Mac OS junk file (if anyone is using Mac OS)
-.DS_Store
-
-# ===========================
-# MISC
-# ===========================
-
-# Compiled Java class files if they end up outside target/
-*.class
-
-# Log files - generated at runtime, not source code
-*.log
